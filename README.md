@@ -2,22 +2,23 @@
 It's a shell program in Linux Kernel
 
 • Command “Exit”: Bu komut girilene kadar Shell işleyişini devam ettirmelidir.
+
 • Invalid Command: Yanlış girilen komutlar saptanmalı ve bir uyarı mesajı vermelidir.
-• Command “Bash”: Bu komut girildiğinde “Bash” kabuğu çalışmalı exit komutu
-yazılana kadar “Myshell” beklemelidir.
-• Command “execx -t times program/command”: Bu komut “times”
-ve”program/komut” parametrelerini alır ve bu parametreleri “Execx” programına
-göndermelidir.
-• Command “Cat Text”: Bu komut “Text” değerini alır ve bunu ekrana yazdırır.
-Çıktısı-> “Cat: Text” olmalıdır.
+
+• Command “Bash”: Bu komut girildiğinde “Bash” kabuğu çalışmalı exit komutu yazılana kadar “Myshell” beklemelidir.
+
+• Command “execx -t times program/command”: Bu komut “times” ve”program/komut” parametrelerini alır ve bu parametreleri “Execx” programına göndermelidir.
+
+• Command “Cat Text”: Bu komut “Text” değerini alır ve bunu ekrana yazdırır. Çıktısı-> “Cat: Text” olmalıdır.
+
 • Command “Clear”: Bu komut terminali temizlemeledir.
+
 • Command “ls”: Bu komut klasör içerisindeki dosyaları gösterir.
-• Program “Execx”: Argüman olarak “times” ve “program/komut” değişkenlerini
-almalıdır. Bu programları/komutları istenilen kadar çalıştırmalıdır.
-• Program “Writef -f FileName”: Bu program bir “FileName” değeri alır. İstenilen
-değişken adındaki dosyayı açmalı, dosya bulunamıyorsa bu isimde dosya
-oluşturmalıdır. Dosya içerisine; sistem zamanını, pid ve ppid değerlerini “a” (append)
-modunda tek satır olarak yazmalıdır.
+
+• Program “Execx”: Argüman olarak “times” ve “program/komut” değişkenlerini  almalıdır. Bu programları/komutları istenilen kadar çalıştırmalıdır.
+
+• Program “Writef -f FileName”: Bu program bir “FileName” değeri alır. İstenilen değişken adındaki dosyayı açmalı, dosya bulunamıyorsa bu isimde dosya oluşturmalıdır. Dosya içerisine; sistem zamanını, pid ve ppid değerlerini “a” (append) modunda tek satır olarak yazmalıdır.
+
 
 # OUTPUTS
 
